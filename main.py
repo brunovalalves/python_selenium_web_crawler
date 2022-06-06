@@ -4,8 +4,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
-# teste de alteração do arquivo no github
-
 def obter_dano_granada(time,jogador):
     print('Iniciando o método de obter maior dano por granada do jogador '+str(jogador)+' do time '+str(time))
     driver.get (time)
